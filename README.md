@@ -183,5 +183,17 @@
   </footer>
 
 </body>
+<script>
+  const images = document.querySelectorAll('.image');
+  window.addEventListener('scroll', () => {
+    images.forEach(img => {
+      const rect = img.getBoundingClientRect();
+      if(rect.top < window.innerHeight - 100) {
+        img.classList.add('show');
+      }
+    });
+  });
+</script>
+
 </html>
 
