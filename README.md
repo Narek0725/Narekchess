@@ -82,7 +82,8 @@
       It is one of the most famous and intellectually challenging games in the world.
       The goal is to checkmate the opponent's king.
     </p>
-    <img class="image" src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba" alt="Chess board" />
+    <img class="image" src= <img width="1170" height="780" alt="image" src="https://github.com/user-attachments/assets/f94ee099-fd4b-4d88-90c9-ce000bc9cb32" />
+/>
   </section>
 
   <section>
@@ -92,7 +93,8 @@
       called <strong>Chaturanga</strong>, which represented four military divisions:
       infantry, cavalry, elephants, and chariots.
     </p>
-    <img class="image" src="https://images.unsplash.com/photo-1543096222-72de739f7917" alt="Ancient chess" />
+    <img class="image" src=" <img width="600" height="413" alt="image" src="https://github.com/user-attachments/assets/9e5f97c8-3ff2-465b-80f7-14c1c8bbdbaf" />
+/>
   </section>
 
   <section>
