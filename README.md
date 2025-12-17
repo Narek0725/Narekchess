@@ -50,6 +50,11 @@
   </style>
 </head>
 <body>
+<nav style="position: sticky; top: 0; background:#333; color:white; padding:10px; text-align:center;">
+  <a href="#wasist" style="margin:0 10px; color:white;">Was ist Schach?</a>
+  <a href="#geschichte" style="margin:0 10px; color:white;">Geschichte</a>
+  <a href="#heute" style="margin:0 10px; color:white;">Heute</a>
+</nav>
 
   <header>
     <h1>Die Welt des Schachs</h1>
