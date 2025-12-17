@@ -5,6 +5,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Schach – Geschichte & Spiel</title>
   <style>
+    <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #222;
+  }
+
+  header {
+    background: linear-gradient(to right, #111, #333);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  }
+
+  section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+  }
+
+  p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+
+  .image.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .image:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+  }
+
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+</style>
+
     body {
       margin: 0;
       font-family: Arial, sans-serif;
